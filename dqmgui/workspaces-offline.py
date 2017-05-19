@@ -169,6 +169,7 @@ server.workspace('DQMContent', 42, 'Muons', 'RPC', '^RPC/', '')
 
 # CTPPS workspaces:
 server.workspace('DQMContent', 50, 'CTPPS', 'TrackingStrip', '^CTPPS/', 'CTPPS/TrackingStrip/Layouts')
+server.workspace('DQMContent', 51, 'CTPPS', 'TimingDiamond', '^CTPPS/', 'CTPPS/TimingDiamond/Layouts')
 
 # POG workspaces:
 server.workspace('DQMContent', 60, 'POG', 'Muons', '^Muons/', '')
